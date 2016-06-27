@@ -20,8 +20,7 @@
 
     MyPlayProgressView *myTestView = [[MyPlayProgressView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50)];
     [self.view addSubview:myTestView];
-    
-    
+
     [UIView animateWithDuration:5 animations:^{
        
         myTestView.value = 1;
