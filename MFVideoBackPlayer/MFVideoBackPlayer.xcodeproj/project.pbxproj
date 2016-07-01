@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2A27E41D23C2850034ABBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A27E31D23C2850034ABBC /* main.m */; };
+		DB2A27E71D23C2850034ABBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A27E61D23C2850034ABBC /* AppDelegate.m */; };
+		DB2A27EA1D23C2850034ABBC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A27E91D23C2850034ABBC /* TestViewController.m */; };
+		DB2A27ED1D23C2850034ABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2A27EB1D23C2850034ABBC /* Main.storyboard */; };
+		DB2A27EF1D23C2850034ABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2A27EE1D23C2850034ABBC /* Assets.xcassets */; };
+		DB2A27F21D23C2850034ABBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2A27F01D23C2850034ABBC /* LaunchScreen.storyboard */; };
+		DB2A27FD1D23C2850034ABBC /* MFVideoBackPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A27FC1D23C2850034ABBC /* MFVideoBackPlayerTests.m */; };
+		DB2A28081D23C2850034ABBC /* MFVideoBackPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A28071D23C2850034ABBC /* MFVideoBackPlayerUITests.m */; };
+		DB2A28201D23C2F20034ABBC /* MFPlayerPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A28171D23C2F20034ABBC /* MFPlayerPlayViewController.m */; };
+		DB2A28211D23C2F20034ABBC /* MFPlayerPlayVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A28191D23C2F20034ABBC /* MFPlayerPlayVideoManager.m */; };
+		DB2A28221D23C2F20034ABBC /* MFPlayerPlayVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A281B1D23C2F20034ABBC /* MFPlayerPlayVideoView.m */; };
+		DB2A28241D23C2F20034ABBC /* MyPlayProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A281F1D23C2F20034ABBC /* MyPlayProgressView.m */; };
+		DB2A28281D23C6A70034ABBC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A28271D23C6A70034ABBC /* MBProgressHUD.m */; };
+		DB2A282D1D23D91B0034ABBC /* testvide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DB2A282C1D23D91B0034ABBC /* testvide.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2A27F91D23C2850034ABBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2A27D71D23C2850034ABBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A27DE1D23C2850034ABBC;
+			remoteInfo = MFVideoBackPlayer;
+		};
+		DB2A28041D23C2850034ABBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2A27D71D23C2850034ABBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A27DE1D23C2850034ABBC;
+			remoteInfo = MFVideoBackPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2A27DF1D23C2850034ABBC /* MFVideoBackPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFVideoBackPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A27E31D23C2850034ABBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB2A27E51D23C2850034ABBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB2A27E61D23C2850034ABBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB2A27E81D23C2850034ABBC /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DB2A27E91D23C2850034ABBC /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DB2A27EC1D23C2850034ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2A27EE1D23C2850034ABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2A27F11D23C2850034ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2A27F31D23C2850034ABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A27F81D23C2850034ABBC /* MFVideoBackPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFVideoBackPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A27FC1D23C2850034ABBC /* MFVideoBackPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFVideoBackPlayerTests.m; sourceTree = "<group>"; };
+		DB2A27FE1D23C2850034ABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A28031D23C2850034ABBC /* MFVideoBackPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFVideoBackPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A28071D23C2850034ABBC /* MFVideoBackPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFVideoBackPlayerUITests.m; sourceTree = "<group>"; };
+		DB2A28091D23C2850034ABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A28161D23C2F20034ABBC /* MFPlayerPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPlayerPlayViewController.h; sourceTree = "<group>"; };
+		DB2A28171D23C2F20034ABBC /* MFPlayerPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPlayerPlayViewController.m; sourceTree = "<group>"; };
+		DB2A28181D23C2F20034ABBC /* MFPlayerPlayVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPlayerPlayVideoManager.h; sourceTree = "<group>"; };
+		DB2A28191D23C2F20034ABBC /* MFPlayerPlayVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPlayerPlayVideoManager.m; sourceTree = "<group>"; };
+		DB2A281A1D23C2F20034ABBC /* MFPlayerPlayVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPlayerPlayVideoView.h; sourceTree = "<group>"; };
+		DB2A281B1D23C2F20034ABBC /* MFPlayerPlayVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPlayerPlayVideoView.m; sourceTree = "<group>"; };
+		DB2A281E1D23C2F20034ABBC /* MyPlayProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayProgressView.h; sourceTree = "<group>"; };
+		DB2A281F1D23C2F20034ABBC /* MyPlayProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayProgressView.m; sourceTree = "<group>"; };
+		DB2A28261D23C6A70034ABBC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DB2A28271D23C6A70034ABBC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DB2A282C1D23D91B0034ABBC /* testvide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testvide.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2A27DC1D23C2850034ABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A27F51D23C2850034ABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A28001D23C2850034ABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2A27D61D23C2850034ABBC = {
+			isa = PBXGroup;
+			children = (
+				DB2A27E11D23C2850034ABBC /* MFVideoBackPlayer */,
+				DB2A27FB1D23C2850034ABBC /* MFVideoBackPlayerTests */,
+				DB2A28061D23C2850034ABBC /* MFVideoBackPlayerUITests */,
+				DB2A27E01D23C2850034ABBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2A27E01D23C2850034ABBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A27DF1D23C2850034ABBC /* MFVideoBackPlayer.app */,
+				DB2A27F81D23C2850034ABBC /* MFVideoBackPlayerTests.xctest */,
+				DB2A28031D23C2850034ABBC /* MFVideoBackPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2A27E11D23C2850034ABBC /* MFVideoBackPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A28151D23C2DD0034ABBC /* VideoPlayer */,
+				DB2A27E51D23C2850034ABBC /* AppDelegate.h */,
+				DB2A27E61D23C2850034ABBC /* AppDelegate.m */,
+				DB2A27E81D23C2850034ABBC /* TestViewController.h */,
+				DB2A27E91D23C2850034ABBC /* TestViewController.m */,
+				DB2A27EB1D23C2850034ABBC /* Main.storyboard */,
+				DB2A27EE1D23C2850034ABBC /* Assets.xcassets */,
+				DB2A27F01D23C2850034ABBC /* LaunchScreen.storyboard */,
+				DB2A27F31D23C2850034ABBC /* Info.plist */,
+				DB2A27E21D23C2850034ABBC /* Supporting Files */,
+			);
+			path = MFVideoBackPlayer;
+			sourceTree = "<group>";
+		};
+		DB2A27E21D23C2850034ABBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A27E31D23C2850034ABBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB2A27FB1D23C2850034ABBC /* MFVideoBackPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A27FC1D23C2850034ABBC /* MFVideoBackPlayerTests.m */,
+				DB2A27FE1D23C2850034ABBC /* Info.plist */,
+			);
+			path = MFVideoBackPlayerTests;
+			sourceTree = "<group>";
+		};
+		DB2A28061D23C2850034ABBC /* MFVideoBackPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A28071D23C2850034ABBC /* MFVideoBackPlayerUITests.m */,
+				DB2A28091D23C2850034ABBC /* Info.plist */,
+			);
+			path = MFVideoBackPlayerUITests;
+			sourceTree = "<group>";
+		};
+		DB2A28151D23C2DD0034ABBC /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A282C1D23D91B0034ABBC /* testvide.mp4 */,
+				DB2A28251D23C6940034ABBC /* third */,
+				DB2A28161D23C2F20034ABBC /* MFPlayerPlayViewController.h */,
+				DB2A28171D23C2F20034ABBC /* MFPlayerPlayViewController.m */,
+				DB2A28181D23C2F20034ABBC /* MFPlayerPlayVideoManager.h */,
+				DB2A28191D23C2F20034ABBC /* MFPlayerPlayVideoManager.m */,
+				DB2A281A1D23C2F20034ABBC /* MFPlayerPlayVideoView.h */,
+				DB2A281B1D23C2F20034ABBC /* MFPlayerPlayVideoView.m */,
+				DB2A281E1D23C2F20034ABBC /* MyPlayProgressView.h */,
+				DB2A281F1D23C2F20034ABBC /* MyPlayProgressView.m */,
+			);
+			name = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		DB2A28251D23C6940034ABBC /* third */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A28261D23C6A70034ABBC /* MBProgressHUD.h */,
+				DB2A28271D23C6A70034ABBC /* MBProgressHUD.m */,
+			);
+			name = third;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2A27DE1D23C2850034ABBC /* MFVideoBackPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A280C1D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayer" */;
+			buildPhases = (
+				DB2A27DB1D23C2850034ABBC /* Sources */,
+				DB2A27DC1D23C2850034ABBC /* Frameworks */,
+				DB2A27DD1D23C2850034ABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFVideoBackPlayer;
+			productName = MFVideoBackPlayer;
+			productReference = DB2A27DF1D23C2850034ABBC /* MFVideoBackPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2A27F71D23C2850034ABBC /* MFVideoBackPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A280F1D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerTests" */;
+			buildPhases = (
+				DB2A27F41D23C2850034ABBC /* Sources */,
+				DB2A27F51D23C2850034ABBC /* Frameworks */,
+				DB2A27F61D23C2850034ABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2A27FA1D23C2850034ABBC /* PBXTargetDependency */,
+			);
+			name = MFVideoBackPlayerTests;
+			productName = MFVideoBackPlayerTests;
+			productReference = DB2A27F81D23C2850034ABBC /* MFVideoBackPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2A28021D23C2850034ABBC /* MFVideoBackPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A28121D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerUITests" */;
+			buildPhases = (
+				DB2A27FF1D23C2850034ABBC /* Sources */,
+				DB2A28001D23C2850034ABBC /* Frameworks */,
+				DB2A28011D23C2850034ABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2A28051D23C2850034ABBC /* PBXTargetDependency */,
+			);
+			name = MFVideoBackPlayerUITests;
+			productName = MFVideoBackPlayerUITests;
+			productReference = DB2A28031D23C2850034ABBC /* MFVideoBackPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2A27D71D23C2850034ABBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mango;
+				TargetAttributes = {
+					DB2A27DE1D23C2850034ABBC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DB2A27F71D23C2850034ABBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DB2A27DE1D23C2850034ABBC;
+					};
+					DB2A28021D23C2850034ABBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DB2A27DE1D23C2850034ABBC;
+					};
+				};
+			};
+			buildConfigurationList = DB2A27DA1D23C2850034ABBC /* Build configuration list for PBXProject "MFVideoBackPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2A27D61D23C2850034ABBC;
+			productRefGroup = DB2A27E01D23C2850034ABBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2A27DE1D23C2850034ABBC /* MFVideoBackPlayer */,
+				DB2A27F71D23C2850034ABBC /* MFVideoBackPlayerTests */,
+				DB2A28021D23C2850034ABBC /* MFVideoBackPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2A27DD1D23C2850034ABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A282D1D23D91B0034ABBC /* testvide.mp4 in Resources */,
+				DB2A27F21D23C2850034ABBC /* LaunchScreen.storyboard in Resources */,
+				DB2A27EF1D23C2850034ABBC /* Assets.xcassets in Resources */,
+				DB2A27ED1D23C2850034ABBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A27F61D23C2850034ABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A28011D23C2850034ABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2A27DB1D23C2850034ABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A28201D23C2F20034ABBC /* MFPlayerPlayViewController.m in Sources */,
+				DB2A28211D23C2F20034ABBC /* MFPlayerPlayVideoManager.m in Sources */,
+				DB2A27EA1D23C2850034ABBC /* TestViewController.m in Sources */,
+				DB2A28241D23C2F20034ABBC /* MyPlayProgressView.m in Sources */,
+				DB2A27E71D23C2850034ABBC /* AppDelegate.m in Sources */,
+				DB2A28221D23C2F20034ABBC /* MFPlayerPlayVideoView.m in Sources */,
+				DB2A27E41D23C2850034ABBC /* main.m in Sources */,
+				DB2A28281D23C6A70034ABBC /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A27F41D23C2850034ABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A27FD1D23C2850034ABBC /* MFVideoBackPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A27FF1D23C2850034ABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A28081D23C2850034ABBC /* MFVideoBackPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2A27FA1D23C2850034ABBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2A27DE1D23C2850034ABBC /* MFVideoBackPlayer */;
+			targetProxy = DB2A27F91D23C2850034ABBC /* PBXContainerItemProxy */;
+		};
+		DB2A28051D23C2850034ABBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2A27DE1D23C2850034ABBC /* MFVideoBackPlayer */;
+			targetProxy = DB2A28041D23C2850034ABBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2A27EB1D23C2850034ABBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2A27EC1D23C2850034ABBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2A27F01D23C2850034ABBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2A27F11D23C2850034ABBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2A280A1D23C2850034ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2A280B1D23C2850034ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2A280D1D23C2850034ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFVideoBackPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2A280E1D23C2850034ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFVideoBackPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB2A28101D23C2850034ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFVideoBackPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFVideoBackPlayer.app/MFVideoBackPlayer";
+			};
+			name = Debug;
+		};
+		DB2A28111D23C2850034ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFVideoBackPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFVideoBackPlayer.app/MFVideoBackPlayer";
+			};
+			name = Release;
+		};
+		DB2A28131D23C2850034ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFVideoBackPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFVideoBackPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB2A28141D23C2850034ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFVideoBackPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MF.MFVideoBackPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFVideoBackPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2A27DA1D23C2850034ABBC /* Build configuration list for PBXProject "MFVideoBackPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A280A1D23C2850034ABBC /* Debug */,
+				DB2A280B1D23C2850034ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2A280C1D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A280D1D23C2850034ABBC /* Debug */,
+				DB2A280E1D23C2850034ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB2A280F1D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A28101D23C2850034ABBC /* Debug */,
+				DB2A28111D23C2850034ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB2A28121D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A28131D23C2850034ABBC /* Debug */,
+				DB2A28141D23C2850034ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2A27D71D23C2850034ABBC /* Project object */;
+}

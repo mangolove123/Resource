@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cH7-5O-A5u">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hM0-Gr-gaS">
+            <objects>
+                <navigationController id="cH7-5O-A5u" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Yl-yJ-2zI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Aqc-ng-pfE" kind="relationship" relationship="rootViewController" id="ddD-tq-X3n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ry-XD-My5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74" y="391"/>
+        </scene>
+        <!--测试视频播放-->
+        <scene sceneID="7si-EM-iA7">
+            <objects>
+                <viewController id="Aqc-ng-pfE" customClass="TestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pGR-P8-d8B"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hmm-ax-CNQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hNM-C2-f3r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIF-gn-iqk">
+                                <rect key="frame" x="132" y="301" width="57" height="30"/>
+                                <state key="normal" title="click me"/>
+                                <connections>
+                                    <action selector="enterVideoPlayClick:" destination="Aqc-ng-pfE" eventType="touchUpInside" id="G37-HE-0mN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RIF-gn-iqk" firstAttribute="centerX" secondItem="hNM-C2-f3r" secondAttribute="centerX" id="0nm-B8-fhy"/>
+                            <constraint firstItem="RIF-gn-iqk" firstAttribute="top" secondItem="pGR-P8-d8B" secondAttribute="bottom" constant="237" id="aQp-xq-Bwy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="测试视频播放" id="mAI-dl-A2H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JkQ-2V-tXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="323" y="391"/>
+        </scene>
+    </scenes>
+</document>
