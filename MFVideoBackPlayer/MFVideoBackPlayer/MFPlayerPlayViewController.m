@@ -56,10 +56,6 @@
     // 加载视频
     [self startLoadVideo];
 }
-- (void)dealloc{
-    
-}
-
 - (void)clickBack:(UIButton *)btn{
     [self dismissViewControllerAnimated:YES completion:nil];
 }

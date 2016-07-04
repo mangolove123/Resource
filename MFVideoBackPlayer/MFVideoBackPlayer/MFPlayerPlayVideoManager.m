@@ -41,6 +41,13 @@ static NSString *kRequestKeyPlayState = @"playable";
     BOOL _isEmptyBufferPause;
     UIView *_currentPlayView;
     
+    /**
+        播放进程结束，因为loadValuesAsynchronouslyForKeys准备播放是一个异步的操作。
+     如果该异步操作还没有完成，即用户已进入播放加载界面马上就点击退出，此时loadValuesAsynchronouslyForKeys
+     还在后台异步执行，异步准备完成后就会执行播放，这并不是我想要的效果！
+     */
+    BOOL _isProcessTerminaed;
+    
 }
 + (instancetype)sharedInstance{
     static MFPlayerPlayVideoManager *nativeNamager;
@@ -53,6 +60,8 @@ static NSString *kRequestKeyPlayState = @"playable";
 - (void)playVideoFromhUrl:(NSURL *)url onView:(UIView *)playView{
     
     if (_url != url) {
+        
+        _isProcessTerminaed = NO;
         
         _url = [url copy];
         _currentPlayView = playView;
@@ -68,7 +77,13 @@ static NSString *kRequestKeyPlayState = @"playable";
          ^{
              dispatch_async( dispatch_get_main_queue(),
                 ^{
-                    [self prepareToPlayAsset:asset withKeys:requestedKeys];
+                    /**
+                     *  因为这是异步操作，有可能执行到这儿的时候程序已经退出
+                     * 必须要确保当前播放进程没有退出
+                     */
+                    if (!_isProcessTerminaed) {
+                        [self prepareToPlayAsset:asset withKeys:requestedKeys];
+                    }
                 });
          }];
     }
@@ -482,6 +497,7 @@ static NSString *kRequestKeyPlayState = @"playable";
     
     [self.mPlayer pause];
     
+    _isProcessTerminaed = YES;
     self.mPlayer = nil;
     self.mPlayerItem = nil;
     self.avPlayerLayer = nil;
