@@ -26,7 +26,12 @@
 
 @property (nonatomic, assign) CGFloat value;
 @property (nonatomic, assign) CGFloat trackValue;
-
+/**
+ *  背景颜色：
+ playProgressBackgoundColor：播放背景颜色
+ trackBackgoundColor ： 缓存条背景颜色
+ progressBackgoundColor ： 整个bar背景颜色
+ */
 @property (nonatomic, strong) UIColor *playProgressBackgoundColor;
 @property (nonatomic, strong) UIColor *trackBackgoundColor;
 @property (nonatomic, strong) UIColor *progressBackgoundColor;
