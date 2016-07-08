@@ -185,7 +185,7 @@ alpha: 1]
         double time = CMTimeGetSeconds([[MFPlayerPlayVideoManager sharedInstance] playerCurrentDuration]);
         
         double hoursElapsed = floor(time / (60.0*60));
-        double minutesElapsed = floor(time / 60.0);
+        double minutesElapsed = fmod(time / 60, 60);
         double secondsElapsed = fmod(time, 60.0);
         _currentPlayTimeLabel.text = [NSString stringWithFormat:@"%02.0f:%02.0f:%02.0f", hoursElapsed, minutesElapsed, secondsElapsed];
         
@@ -208,7 +208,7 @@ alpha: 1]
 //        interval = 0.5f * duration / width;
         
         double hoursElapsed = floor(duration / (60.0*60));
-        double minutesElapsed = floor(duration / 60.0);
+        double minutesElapsed = fmod(duration / 60, 60);
         double secondsElapsed = fmod(duration, 60.0);
         _totalPlayTimeLabel.text = [NSString stringWithFormat:@"%02.0f:%02.0f:%02.0f", hoursElapsed, minutesElapsed, secondsElapsed];
         
