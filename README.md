@@ -202,5 +202,5 @@ if (context == kRateObservationContext){
 注意：`self.mPlayer.rate == 0` 标示目前是暂停状态，`self.mPlayer.rate == 1` 标示目前是播放状态。不管是什么原因导致的暂停和播放，`kRateObservationContext`监听都会被调用。`isForcusPause == YES` 标示的是强制暂停，是用户行为导致的。否则就是网络问题导致的暂停。
 
 
-**Github源码**：
-  https://github.com/wmf00032/Resource/tree/master/MFVideoBackPlayer
+**个人博客地址**：
+  http://wmf00032.github.io/2016/07/09/my-new-wmf/
