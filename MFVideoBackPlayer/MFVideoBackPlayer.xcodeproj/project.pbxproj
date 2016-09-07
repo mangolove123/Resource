@@ -550,6 +550,7 @@
 				DB2A280E1D23C2850034ABBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2A280F1D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +559,7 @@
 				DB2A28111D23C2850034ABBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2A28121D23C2850034ABBC /* Build configuration list for PBXNativeTarget "MFVideoBackPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +568,7 @@
 				DB2A28141D23C2850034ABBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
